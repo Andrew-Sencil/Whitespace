@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background: #fff;
+  text-decoration: none;
 }
 
 ul {
@@ -61,12 +62,14 @@ ul {
   cursor: pointer;
   transition: 0.5s;
   text-align: center;
-  color: #043873;
   margin-right: 15px;
+  margin-left: 15px;
+  color: #043873 !important;
 }
 
 .btnLogin:hover {
-  color: #043873;
+  color: #fff !important;
+  background: #4f9cf9;
 }
 
 .btnTry {
@@ -79,6 +82,92 @@ ul {
   text-align: center;
 }
 
+.hero .btnTry {
+  margin-top: 70px;
+}
+
 .btnTry:hover {
   color: #043873;
+  background: #ffe492;
+}
+
+/* Hero */
+
+.hero {
+  background: #043873;
+  background-image: url("images/mainElement.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  z-index: -1;
+  font-family: "Inter", serif;
+}
+
+.hero .container {
+  background: url("images/Image-container.png") no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 215px;
+  height: 600px;
+  z-index: 0;
+  color: #fff;
+}
+
+.hero .hero-content .hero-heading {
+  width: 60%;
+  font-weight: 600;
+}
+
+.hero .hero-button a {
+  text-decoration: none;
+  color: #fff;
+}
+/* Utilities Classes*/
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Text Utilities */
+
+.text-xxl {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 40px 0 20px;
+}
+
+.text-xl {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin: 40px 0 20px;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 30px 0 20px;
+}
+
+.text-md {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: normla;
+  margin: 20px 0 10px;
+}
+
+.text-sm {
+  font-size: 0.9;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 10px 0 5px;
+}
+
+.text-center {
+  text-align: center;
 }
