@@ -36,7 +36,6 @@ ul {
 .navbar {
   background-color: #043873;
   padding: 20px;
-  justify-content: space-around;
 }
 
 .navbar .container {
@@ -100,6 +99,8 @@ ul {
   background-size: 1000 1000;
   height: 760px;
   padding-top: 15px;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .hero .hero-text {
@@ -110,7 +111,7 @@ ul {
 .hero .hero-text p {
   margin-top: 50px;
   line-height: 30px;
-  width: 90%;
+  width: 100%;
 }
 
 .hero .hero-content a {
@@ -235,6 +236,28 @@ ul {
 .extensions {
   height: 760px;
   background: #043873;
+  position: relative;
+}
+
+.extensions .extension-text {
+  color: #fff;
+  align-self: center;
+}
+
+.extensions .extension-text p {
+  width: 80%;
+}
+
+.extensions .extensions-textbg {
+  width: 500px;
+  position: absolute;
+  bottom: 26.3%;
+  right: 23%;
+  z-index: -1;
+}
+
+.extensions .extension-text a i {
+  margin-left: 10px;
 }
 
 /* Buttons */
@@ -271,6 +294,22 @@ ul {
   color: #043873;
 }
 
+.hero .hero-button-try {
+  display: inline-block;
+  padding: 16px 24px;
+  background: #4f9cf9;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 18px;
+}
+
+.hero .hero-button-try:hover {
+  color: #fff;
+  background: #043873;
+}
+
 .main-features .btn {
   display: inline-block;
   padding: 20px 40px;
@@ -281,6 +320,29 @@ ul {
   text-align: center;
   font-size: 18px;
   margin-top: 40px;
+}
+
+.main-features .btn:hover {
+  background: #043873;
+}
+
+.extensions .extensions-btn {
+  padding: 20px 40px;
+  background: #4f9cf9;
+  display: inline-block;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.extensions .extensions-btn:hover {
+  color: #043873;
+  background: white;
 }
 
 /* Utility Classes */
