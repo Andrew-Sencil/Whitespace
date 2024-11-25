@@ -402,10 +402,6 @@ ul {
   margin-right: 20px;
 }
 
-.blue-backgroundimg {
-  position: absolute;
-}
-
 /* Card hover */
 .pricing .card1:hover,
 .pricing .card2:hover,
@@ -416,11 +412,162 @@ ul {
   transition: 0.5s;
 }
 
+.bluebackground-img {
+  position: absolute; /* Place it in the flow */
+  top: calc(
+    100% + 4100px
+  ); /* Adjust to align with the bottom of the Pricing section */
+  left: 0;
+  width: 680.74px; /* Ensure it stretches across the full width */
+  height: 691.34px; /* Adjust to fit content or specified dimensions */
+  z-index: 2; /* Behind content */
+}
+
 /* Taskey */
 .taskey {
   height: 574px;
+  position: relative;
+  background: #043873;
+  z-index: 1;
 }
 
+.taskey .taskey-styleText {
+  left: 63%;
+  top: 33.1%;
+  position: absolute;
+  z-index: -1;
+  width: 314;
+}
+
+.taskey .taskey-content h1 {
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.taskey .taskey-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.taskey .taskey-content a i {
+  margin-left: 10px;
+}
+
+/* Security */
+.security {
+  height: 661.13px;
+  padding: 140px 220px;
+  z-index: 1;
+  position: relative;
+}
+
+.security .security-text {
+  align-self: center;
+  margin-right: 40px;
+}
+
+.security .security-styleText {
+  width: 334.03px;
+  height: 36.56;
+  top: 34.3%;
+  left: 22.8%;
+  position: absolute;
+  z-index: -1;
+}
+
+.security .security-text h1 {
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.security .security-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+  width: 115%;
+}
+
+.security .security-text a i {
+  margin-left: 10px;
+}
+
+/* Sponsors */
+.sponsors {
+  height: auto; /* Adjust height as needed */
+  padding: 140px 220px; /* Adjust padding for spacing */
+  text-align: center; /* Center the heading text */
+  position: relative;
+  z-index: 1;
+}
+
+.sponsors .container h1 {
+  font-weight: 700px;
+  font-size: 72px;
+}
+
+.sponsors .sponsors-styleText {
+  width: 334.03px;
+  height: 36.56;
+  top: 30.5%;
+  left: 47%;
+  position: absolute;
+  z-index: -1;
+}
+
+.sponsors-content {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Distribute logos evenly */
+  align-items: center; /* Center logos vertically */
+  gap: 220px; /* Add consistent spacing between logos */
+  margin-top: 200px;
+}
+
+.sponsors-content div {
+  flex: 1; /* Allow all logos to take equal space */
+  max-width: 290px; /* Optional: Limit logo sizes */
+}
+
+.sponsors-content img {
+  max-width: 290px; /* Make logos responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center logos within their container */
+}
+
+/* Connect */
+.connect {
+  height: 750.8px;
+  background: #043873;
+  position: relative;
+  z-index: 1;
+}
+
+.connect .connect-text h1 {
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.connect .connect-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.connect .connect-text {
+  align-self: center;
+}
+
+.connect .connect-text a {
+  text-decoration: none;
+}
+
+.connect .connect-text a i {
+  margin-left: 10px;
+}
 /* Card */
 .card {
   background: #fff;
@@ -548,6 +695,58 @@ ul {
   border: 1px #ffe492 solid;
 }
 
+.taskey .taskey-button {
+  padding: 20px 40px;
+  background: #4f9cf9;
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 80px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.taskey .taskey-button:hover {
+  color: #043873;
+  background: #fff;
+}
+
+.security .security-button {
+  padding: 20px 40px;
+  background: #4f9cf9;
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.security .security-button:hover {
+  color: #fff;
+  background: #043873;
+}
+
+.connect .connect-button {
+  padding: 20px 40px;
+  background: #4f9cf9;
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
 /* Utility Classes */
 .container {
   max-width: 1920px;
@@ -578,6 +777,10 @@ ul {
 
 .text-center {
   text-align: center;
+}
+
+.white-text {
+  color: #fff;
 }
 
 /* For grids */
