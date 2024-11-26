@@ -28,6 +28,10 @@ ul {
   display: flex;
 }
 
+.flex-point5 {
+  flex: 2px;
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -548,6 +552,7 @@ ul {
 .connect .connect-text h1 {
   font-weight: 700;
   font-size: 72px;
+  line-height: 87.14px;
 }
 
 .connect .connect-text p {
@@ -557,8 +562,14 @@ ul {
   margin-top: 30px;
 }
 
+.connect .connect-image {
+  padding-left: 100px;
+  padding-right: 0px;
+}
+
 .connect .connect-text {
   align-self: center;
+  padding-left: 0px;
 }
 
 .connect .connect-text a {
@@ -568,6 +579,82 @@ ul {
 .connect .connect-text a i {
   margin-left: 10px;
 }
+
+.connect .connect-bgImg {
+  position: absolute; /* Positioning the image absolutely within the container */
+  /* width: 2555.79px; Adjust size to fit above or beside the heading */
+  width: 100%;
+  z-index: -1; /* Ensures it's not behind other elements */
+  left: 0%;
+  overflow: hidden;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+/* Testimonials */
+.testimonials {
+  height: 994.5px;
+  padding: 140px 220px;
+  position: relative;
+}
+
+.testimonials h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+}
+
+.testimonials .testimonials-styleText {
+  left: 59.5%;
+  top: 16.5%;
+  width: 257.97px;
+  height: 47.67px;
+  position: absolute;
+  z-index: -1;
+}
+
+.testimonials .faceimg {
+  height: 150px;
+  width: 150px;
+}
+
+.testimonials .testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding: 60px 40px;
+  border-radius: 10px;
+}
+
+.testimonials .quoteImg {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.testimonials .card {
+  background: #4f9cf9;
+  height: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.testimonials .bottom-something {
+  padding-top: 40px;
+}
+
+.testimonials .companyName {
+  color: #fff;
+  padding-bottom: 60px;
+}
+
+.testimonials .comments {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
 /* Card */
 .card {
   background: #fff;
