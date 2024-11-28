@@ -638,81 +638,21 @@ ul {
   height: 500px;
   padding-left: 40px;
   padding-right: 40px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional for better design */
 }
 
 .testimonials .bottom-something {
-  padding-top: 20px;
-  display: flex; /* Align image and text */
-  align-items: center; /* Center align vertically */
-  gap: 16px; /* Adjust space between image and text */
+  padding-top: 40px;
 }
 
 .testimonials .companyName {
   color: #fff;
   padding-bottom: 60px;
-  margin: 0; /* Remove default margins */
-  padding-top: 40px;
 }
 
 .testimonials .comments {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
   padding-bottom: 40px;
   color: #fff;
-}
-
-.testimonials .name {
-  color: #043873;
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 600;
-}
-
-.testimonials .company {
-  font-size: 16px;
-  color: #fff; /* Adjust for better readability */
-  line-height: 24px;
-}
-
-/* Adjustments for alignment */
-.testimonials .faceimg img {
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-}
-
-/* Advertisement */
-.advertisement {
-  height: 705px;
-  padding: 140px 220px;
-  position: relative;
-  background: #043873;
-}
-
-.advertisement .advertisement-content {
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 40px;
-}
-
-.advertisement .advertisement-heading {
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 87.14px;
-  padding-bottom: 30px;
-}
-
-.advertisement .advertisement-text {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-}
-
-.advertisement .advertisement-contact {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
 }
 
 /* Card */
@@ -890,21 +830,6 @@ ul {
   text-align: center;
   font-size: 18px;
   margin-top: 50px;
-  text-decoration: none;
-  color: #fff;
-}
-
-.advertisement .advertisement-button {
-  padding: 20px 40px;
-  background: #4f9cf9;
-  display: inline-block;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.5s;
-  text-align: center;
-  font-size: 18px;
-  margin-top: 40px;
-  margin-bottom: 40px;
   text-decoration: none;
   color: #fff;
 }
