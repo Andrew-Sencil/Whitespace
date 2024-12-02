@@ -419,6 +419,32 @@ ul {
   transition: 0.5s;
 }
 
+.pricing .card1:hover .pricing-heading,
+.pricing .card2:hover .pricing-heading,
+.pricing .card3:hover .pricing-heading {
+  color: #fff;
+}
+
+.pricing .card1:hover .pricing-card-price,
+.pricing .card2:hover .pricing-card-price,
+.pricing .card3:hover .pricing-card-price {
+  color: #ffe492;
+}
+
+.pricing .card1:hover .pricing-card-body i,
+.pricing .card2:hover .pricing-card-body i,
+.pricing .card3:hover .pricing-card-body i {
+  color: #ffe492 !important;
+}
+
+.pricing .card1:hover .pricing-btn,
+.pricing .card2:hover .pricing-btn,
+.pricing .card3:hover .pricing-btn {
+  background: #4f9cf9;
+  color: #fff;
+  border: none;
+}
+
 .bluebackground-img {
   position: absolute; /* Place it in the flow */
   top: calc(
